@@ -1,0 +1,113 @@
+*{
+    color: cadetblue;
+}
+
+
+body{
+    margin: 0;
+    min-height: 100vh;
+    background: url(../img/background.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    cursor: url("../img/Hollow\ Knight\ &\ Game\ Arrow--cursor--SweezyCursors..cur"),auto;
+}
+
+
+
+
+h1{
+    text-align: center;
+    font-size: 50px;
+
+}
+
+
+
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+   justify-content: space-between;
+   height: 40px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+
+li{    font-size: 30px;
+      font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+}
+
+
+.container{
+  display: inline-block;
+    padding: 1px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 250px;
+}
+
+.card{
+
+    width: 300px;
+    height: 400px;
+    padding: 30px;
+    background: rgb(0, 0, 0);
+    border-radius: 10px;
+
+}
+
+label{
+     font-size: 20px;
+  
+}
+
+input{
+    border-radius: 5px;
+    width: 150px;
+}
+
+
+.sky{
+     display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+button{
+  display: block;
+    margin: 20px auto;
+
+    border-radius: 20px;
+
+    width: 80px;
+    height: 35px;
+
+    cursor: pointer;
+}
+
+button:hover{
+    color: aqua;
+}
+
+.required::after{
+   content: ' *';
+    color: red;
+}
