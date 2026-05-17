@@ -10,7 +10,8 @@ body{
     padding: 0;
 }
 
-h1{
+.s{
+    width: 100px;
     text-align: center;
     font-size: 50px;
     margin: 0;
@@ -18,7 +19,7 @@ h1{
 
 header{
     width: 100%;
-    background-color: rgb(71, 71, 71);
+    background-color: rgb(7, 7, 7);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -46,7 +47,28 @@ a:hover{
     color: white;
 }
 
+.fall{
+   margin-left: 750px;
+background-color: #050816;
+font-size: larger;
+}
 
+.insta{
+    width: 50px;
+}
+
+.link{
+    width: 50px;
+}
+
+.hub{
+    width: 50px;
+}
+
+.butt{
+    background-color: #00ffff;
+    border-radius: 30px;
+}
 
 
 *{
@@ -54,6 +76,10 @@ a:hover{
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+}
+
+img{
+    width: 100%;
 }
 
 body{
@@ -136,4 +162,8 @@ section{
     align-items: center;
     justify-content: space-between;
     gap: 50px;
+}
+
+@keyframes{
+
 }
