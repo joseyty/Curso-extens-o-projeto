@@ -13,6 +13,9 @@ body{
     align-items: center;
 
     background: #050816;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
 }
 
 .card{
@@ -47,10 +50,17 @@ button{
    color: aqua;
    background-color: black;
    border-radius: 30px;
+display: block;
+margin: auto;
+margin-top: 90px;
 }
 
+div#mensagem{
+    text-align: center;
+    font-size: larger;
+}
 
 button:hover{
     color: aquamarine;
-    
+    background-color: rgba(0,255,255,0.1);
 }

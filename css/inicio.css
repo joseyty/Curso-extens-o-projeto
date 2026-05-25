@@ -52,23 +52,30 @@ a:hover{
 }
 
 
-.container{
-  display: inline-block;
-    padding: 1px;
+.container {
+    display: flex;
     justify-content: center;
     align-items: center;
-    display: flex;
-    margin-top: 250px;
+    height: 100vh; /* centraliza na tela toda */
 }
 
-.card{
-
+.card {
     width: 300px;
     height: 400px;
     padding: 30px;
     background: rgb(0, 0, 0);
     border-radius: 10px;
 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+img{
+    width: 200px;
+   margin-top: -90px;
 }
 
 label{
@@ -108,4 +115,27 @@ button:hover{
 .required::after{
    content: ' *';
     color: red;
+}
+
+.pulsar {
+     color: whitesmoke;
+    animation: pulsar 1s infinite ease-in-out;
+    
+}
+
+@keyframes pulsar {
+    0% {
+        transform: scale(1);
+       
+    }
+    50% {
+        transform: scale(1.1);
+       
+    }
+    100% {
+        transform: scale(1);
+        
+    }
+
+
 }

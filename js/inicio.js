@@ -24,7 +24,7 @@ function bitButton(){
     document.getElementById("mensagem").textContent= "você "  + sucesso;
     mensagem.style.color= "green";
 
-    window.location.href="contato.html";
+    window.location.href="home.html";
 
      
         } 
